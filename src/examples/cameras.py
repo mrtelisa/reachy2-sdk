@@ -81,7 +81,7 @@ if __name__ == "__main__":
     )
     args = argParser.parse_args()
 
-    reachy = ReachySDK(host="localhost")
+    reachy = ReachySDK(host="192.168.0.117")
 
     if not reachy.is_connected:
         exit("Reachy is not connected.")
